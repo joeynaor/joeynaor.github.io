@@ -170,6 +170,7 @@ input, select, textarea {
 			opacity: 1;
 		}
 
+
 	strong, b {
 		color: #ffffff;
 		font-weight: 600;
@@ -1664,4 +1665,115 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		.buttons
+		{
+				font-size: 20px;
+				color: white;
+				font-family: "Source Sans Pro", sans-serif;
+				line-height: 10px;
+				text-align: center;
+		}
+
+		.buttons li
+		{
+				position: relative;
+				width: 70px;
+				height: 70px;
+				display: inline-block;
+				margin-right: 30px;
+				overflow: visible;
+
+		}
+
+		.buttons li a
+		{
+				position: absolute;
+				left: 0;
+				top:0;
+				z-index: 1;
+				display:inline-block;
+				text-align:center;
+				width: 70px;
+				height:70px;
+				transition: all 600ms cubic-bezier(0.190, 1.000, 0.220, 1.000);
+				border-radius: 50px;
+		}
+
+		.button-twitter {background: #000000;}
+
+		.button-h1 {background: #000000;}
+
+		.button-linked {background: #000000;}
+
+		.button-github {background: #000000;}
+
+
+		.buttons li a:hover
+		{
+				border-radius: 40px 40px 5px 40px;
+				transform: rotate(45deg);
+		}
+
+		.buttons ul li img
+		{
+				position: absolute;
+				margin: -13px 0 0 -18px;
+				color: #8A999D;
+				font-size: 27px;
+				z-index: 2;
+				pointer-events: none;
+		}
+
+		.logo-twitter, .logo-dribbble
+		{
+				width: 30px;
+				top: 48%;
+				left: 55%;
+
+		}
+
+		.logo-h1
+		{
+				width: 20px;
+				top: 40%;
+				left: 62%;
+
+		}
+		.logo-linked
+		{
+				width: 35px;
+				top: 40%;
+				left: 50%;
+
+		}
+		.logo-github
+		{
+				width: 40px;
+				top: 40%;
+				left: 47%;
+
+		}
+
+		.buttons ul li span
+		{
+				position: absolute;
+				width: 80px;
+				bottom: -40px;
+				left:-6px;
+				display: block;
+				color: white;
+				font-weight: 700;
+				opacity:0;
+				font-size: 17px;
+				text-align: center;
+				transition: all 0.5s;
+		}
+
+		.buttons ul li:hover span
+		{
+				color: white;
+				font-weight: 600;
+				opacity:1;
 		}
