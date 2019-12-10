@@ -1777,3 +1777,8 @@ input, select, textarea {
 				font-weight: 600;
 				opacity:1;
 		}
+
+		.bounty
+		{
+			margin: 10px;
+		}
